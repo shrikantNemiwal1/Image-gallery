@@ -14,10 +14,18 @@
 }
 
 .grid-item {
+  position: relative;
   height: 100px;
 }
 
 .grid-img {
   width: 100px;
   border-radius: 5px;
+}
+
+.img-checkbox {
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: absolute;
 }
