@@ -46,7 +46,7 @@
 }
 
 .img-checkbox:checked ~ .i-check {
-  visibility: visible;
+  opacity: 100%;
 }
 
 .i-check {
@@ -58,7 +58,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
 }
 
 .btn-container {
@@ -73,3 +74,4 @@
   border-radius: 5px;
   margin: 0 10px 5px 0;
 }
+
