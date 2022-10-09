@@ -1,0 +1,23 @@
+.container {
+  margin: 10px auto;
+}
+
+.grid {
+  width: 430px;
+  margin: 100px auto;
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 100px 100px 100px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 0;
+}
+
+.grid-item {
+  height: 100px;
+}
+
+.grid-img {
+  width: 100px;
+  border-radius: 5px;
+}
